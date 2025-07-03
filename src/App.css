@@ -1,0 +1,126 @@
+/* Apply global font and background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the dashboard */
+.task-dashboard {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.task-form button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.task-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Filter buttons */
+.task-filter {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.task-filter button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.task-filter button:hover,
+.task-filter button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Task display */
+.task-list {
+  margin-top: 1rem;
+}
+
+.task-item {
+  background-color: #fafafa;
+  border-left: 5px solid #007bff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.task-item.completed {
+  background-color: #e6f4ea;
+  border-left-color: #28a745;
+  text-decoration: line-through;
+  opacity: 0.85;
+}
+
+.task-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.task-item p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.task-item small {
+  color: #999;
+}
+
+/* Actions */
+.task-item .actions {
+  margin-top: 10px;
+}
+
+.task-item .actions button {
+  margin-right: 10px;
+  background-color: #eee;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-item .actions button:hover {
+  background-color: #ccc;
+}
