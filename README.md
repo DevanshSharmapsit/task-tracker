@@ -22,7 +22,8 @@ A simple personal task management app built with React.js.
 - localStorage
 
 ## 🔗 Live Demo
-[Your Netlify / Vercel / GitHub Pages Link]
+https://task-tracker99.netlify.app/
 
-## 🖼 Screenshots
-(Add 1–2 screenshots of your app here)
+
+## 👤 Author
+Devansh Sharma — [LinkedIn](https://www.linkedin.com/in/devansh-sharma-70376922b)
